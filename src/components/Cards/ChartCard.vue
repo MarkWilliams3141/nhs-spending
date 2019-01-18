@@ -8,9 +8,9 @@
       <slot name="content"></slot>
     </md-card-content>
 
-    <md-card-actions md-alignment="left">
+    <!--<md-card-actions md-alignment="left">
       <slot name="footer"></slot>
-    </md-card-actions>
+    </md-card-actions>-->
   </md-card>
 </template>
 <script>
@@ -90,3 +90,18 @@ export default {
   }
 };
 </script>
+
+<style>
+/* Chartist style overwrite */
+.ct-label.ct-vertical.ct-start {
+  -webkit-box-align: flex-end !important;;
+  -ms-flex-align: flex-end !important;;
+  align-items: flex-end !important;;
+  -webkit-box-pack: flex-end !important;;
+  -ms-flex-pack: flex-end !important;;
+  justify-content: flex-start !important;
+  text-align: right !important;;
+  text-anchor: end !important;;
+  padding-left: 5px !important;;
+}
+</style>
