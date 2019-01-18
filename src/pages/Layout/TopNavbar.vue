@@ -1,5 +1,5 @@
 <template>
-  <md-toolbar md-elevation="0" class="md-transparent">
+  <!--<md-toolbar md-elevation="0" class="md-transparent">
     <div class="md-toolbar-row">
       <div class="md-toolbar-section-start">
         <h3 class="md-title">{{$route.name}}</h3>
@@ -12,13 +12,13 @@
         </md-button>
 
         <div class="md-collapse">
-          <!--<div class="md-autocomplete">
+          <div class="md-autocomplete">
             <md-autocomplete class="search" v-model="selectedEmployee" :md-options="employees">
               <label>Search...</label>
             </md-autocomplete>
-          </div>-->
+          </div>
 
-          <!--
+
           <md-list>
             <md-list-item to="/">
               <i class="material-icons">dashboard</i>
@@ -47,12 +47,12 @@
               <p class="hidden-lg hidden-md">Profile</p>
             </md-list-item>
           </md-list>
-          -->
+
         </div>
       </div>
     </div>
 
-  </md-toolbar>
+  </md-toolbar>-->
 </template>
 
 <script>

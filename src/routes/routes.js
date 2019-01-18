@@ -26,7 +26,7 @@ const routes = [
       },
       {
         path: "spending",
-        name: "Spending",
+        name: "Spending by BNF Code",
         component: TableList
       },
       {

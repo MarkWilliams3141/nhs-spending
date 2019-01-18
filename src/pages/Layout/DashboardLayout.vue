@@ -10,7 +10,7 @@
       </sidebar-link>
       <sidebar-link to="/spending">
         <md-icon>attach_money</md-icon>
-        <p>Spending</p>
+        <p>Spending by BNF Code</p>
       </sidebar-link>
 
     </side-bar>
